@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Portafolio Web | Jhon Carpio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Jost:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center">
+      <h1 class="logo mr-auto"><a href="#hero">Jhon</a></h1>
+      
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="#about">Acerca</a></li>
+          <li><a href="#services">Proyecto</a></li>
+          <li><a href="#contact">Contáctame</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero" class="d-flex align-items-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 d-flex flex-column justify-content-center pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+          <h1>Jhon Byron Carpio González</h1>
+          <h2>Soy estudiante de la carrera Ingenieria en Software</h2>
+        </div>
+        <div class="col-lg-6 order-1 order-lg-2 imagen 1 png.png" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/img/imagen 1 png.png" class="img-fluid animated" alt="mi foto sin fondo">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Acerca de mí</h2>
+        </div>
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <p>
+              Soy <strong>Jhon Byron Carpio González</strong><br>Estudiante de la carrera Ingenieria en Software de Quinto Semestre
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i>Creativo </li>
+              <li><i class="ri-check-double-line"></i>Soñador </li>
+              <li><i class="ri-check-double-line"></i>Viajero </li>
+            </ul>
+            <p>
+             Es increíble cómo puede cambiar tu vida, cuando decides cambiar un pensamiento
+            </p>
+            <a href="#contact" class="btn-learn-more">¡Contáctame!</a>
+          </div>
+
+          <div class="col-lg-6 pt-4 pt-lg-0 order-1 order-lg-2 imagen 1 png.png" data-aos="zoom-in" data-aos-delay="200">
+            <img src="assets/img/imagen 1 png.png" class="img-fluid animated" alt="mi foto sin fondo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Proyectos</h2>
+          <p>"A la cima no se llega superando a los demás, sino superandote a ti mismo."</p>
+        </div>
+        <div class="row">
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bxl-dribbble"></i></div>
+              <h4><a href="">Proyecto I</a></h4>
+              <p>Formar parte de un equipo de ciclismo</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Proyecto II</a></h4>
+              <p>Crear una empresa de Programación y Diseño Gráfico</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-tachometer"></i></div>
+              <h4><a href="">Proyecto III</a></h4>
+              <p>Docente</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-6 d-flex align-items-stretch mt-4 mt-xl-0" data-aos="zoom-in" data-aos-delay="400">
+            <div class="icon-box">
+              <div class="icon"><i class="bx bx-layer"></i></div>
+              <h4><a href="">Proyecto IV</a></h4>
+              <p>Recorrer el mundo</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>¿Sabías que?...</h3>
+            <p> La vida recompensa de manera extraordinaria a quienes se entregan de forma extraordinaria. No te rindas que la vida es eso, continuar el viaje, perseguir tus sueños, destrabar el tiempo, correr los escombros y destapar el cielo.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">¡Contáctame!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="" class="services section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Mis Estudios Realizados</h2>
+          <p>"Nunca consideres el estudio como una obligación, sino como una oportunidad para penetrar en el bello y maravilloso mundo del saber."</p>
+        </div>
+        <div class="row" data-aos="zoom-in" data-aos-delay="100">
+            <table class="table table-hover">
+              <thead>
+                <tr>
+                  <th scope="col">Primaria</th>
+                  <th scope="col">Secundaria</th>
+                  <th scope="col">Superior</th>
+                  <th scope="col">Cuarto Nivel</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>E.P.M Mi Segundo Hogar</td>
+                  <td>U.E Doctor Antonio Parra Velasco</td>
+                  <td>UNEMI | Universidad Estatal de Milagro</td>
+                  <td>A Futuro</td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6 d-flex align-items-center" data-aos="fade-right" data-aos-delay="100">
+            <img src="assets/img/skills.png" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
+            <h3>Mis Habilidades</h3>
+            <p class="font-italic">
+              No importa lo lento que vayas mientras no te detengas.
+            </p>
+            <div class="skills-content">
+              <div class="progress">
+                <span class="skill">Ciclista<i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Diseño Grafico<i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Dibujos<i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="progress">
+                <span class="skill">Video Juegos<i class="val">45%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="cta">
+      <div class="container" data-aos="zoom-in">
+        <div class="row">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>¿En qué trabajo?...</h3>
+            <p>Hacienta Paparucho, Exportacion de banano de primera calidad "Exportadora Gina Fruit".</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="#contact">¡Contáctame!</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Mis Cursos</h2>
+          <p>Cree en ti mismo y en lo que eres. Se consciente de que hay algo en tu interior que es mas grande que cualquier obstaculo.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="100">
+              <div class="pic"><img src="assets/img/curso/curso-1.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Microsoft Office</h4>
+                <span>Training Especialiazado en Office</span>
+                <p>250 Hrs | Capacitación</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4 mt-lg-0">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="200">
+              <div class="pic"><img src="assets/img/curso/curso-2.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Software Libre</h4>
+                <span>Training Experto</span>
+                <p>200 Hrs | Capacitación</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="300">
+              <div class="pic"><img src="assets/img/curso/curso-3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Diseño Gráfico</h4>
+                <span>Photoshop & Illustrator</span>
+                <p>100 Hrs | Capacitación</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 mt-4">
+            <div class="member d-flex align-items-start" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="assets/img/curso/curso-4.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Mantenimiento & Reparación</h4>
+                <span>Laptops, Teléfonos y Computadoras</span>
+                <p>100 Hrs | Capacitación</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>¿Qué dicen de mí?</h2>
+          <p>La medida de lo que somos, es lo que hacemos con lo que tenemos.</p>
+        </div>
+        <div class="faq-list">
+          <ul>
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">¿Algun día cumpliras tu anhelada meta? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                <p>
+                 Con la bendición de Dios y el apoyo de mis padres todo lo que me proponga lo cumplire.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">¿ Porqué siempre llegas tarde a un lugar? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                <p>
+                 Llegar siempre tarde es mi pasión.
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Eres muy educado y amable <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                <p>
+                  Mis padres siempre me han inculcado buenos valores y que debo respetar siempre y ayudar a quien se lo merece... "Sus palizas tambien xd".
+                </p>
+              </div>
+            </li>
+            <li data-aos="fade-up" data-aos-delay="400">
+              <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">¿Porque elejistes esa carrera y no otra? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                <p>
+                  Siempre mi sueño fue estudiar esta carrera y ya falta cada vez menos para lograrlo.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>¡Contáctame!</h2>
+          <p>Mente positiva, vida positiva.</p>
+        </div>
+        <div class="row">
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="icofont-google-map"></i>
+                <h4>Ubicación:</h4>
+                <p>Rcto: Bella Sombra - Simón Bolívar</p>
+              </div>
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>jhoncarpio321@gmail.com</p>
+              </div>
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Llamamé al:</h4>
+                <p>+593 99 693 0779</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="name">Sus Nombres</label>
+                  <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="¡No ingreses SPAM!" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Su Email</label>
+                  <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="¡No ingreses SPAM!" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Su Mensaje</label>
+                <textarea class="form-control" name="message" rows="10" data-rule="required" data-msg="¡No ingreses SPAM!"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Enviando</div>
+                <div class="sent-message"></div>
+                <div class="sent-message">¡Su mensaje ha sido enviado!</div>
+              </div>
+              <div class="text-center"><button type="submit">Contactar</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer">
+    <div class="container footer-bottom clearfix">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Jhon</span></strong> | Todos los Derechos Reservados
+      </div>
+      <div class="credits">
+        Diseñado por <a href="#">Jhon Byron Carpio González</a>
+      </div>
+    </div>
+  </footer>
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
